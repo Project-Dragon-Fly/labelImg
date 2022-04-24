@@ -76,3 +76,7 @@ class StringBundle:
                 self.id_to_message[key] = value
 
             f.close()
+
+        # my custom key,value
+        self.id_to_message['yolov4-prediction'] = 'AI model'
+        self.id_to_message['runYolov4Prediction'] = 'AI model'
